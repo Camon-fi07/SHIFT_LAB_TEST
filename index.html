@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/null.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>SHIFT</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="search">
+        <h2 class="title search__title">Поиск</h2>
+        <select id="tableOptions" class="search__select">
+          <option value="Регистрационный номер">Регистрационный номер</option>
+          <option value="Фамилия">Фамилия</option>
+          <option value="Пол">Пол</option>
+          <option value="Адрес">Адрес</option>
+          <option value="Дата рождения">Дата рождения</option>
+        </select>
+        <input id="tableInput" class="search__input" type="text" />
+        <button class="search__button">Найти</button>
+        <span class="search__count">Количество совпадений: </span>
+      </div>
+      <div class="table">
+        <h2 class="title table__title">Пациент</h2>
+        <div class="table__content">
+          <div class="table__record">
+            <div class="table__cell">Регистрационный номер</div>
+            <div class="table__cell">Фамилия</div>
+            <div class="table__cell">Пол</div>
+            <div class="table__cell">Адрес</div>
+            <div class="table__cell">Дата рождения</div>
+          </div>
+          <div class="table__record">
+            <div heading="Регистрационный номер" class="table__cell">1</div>
+            <div heading="Фамилия" class="table__cell">Иванов</div>
+            <div heading="Пол" class="table__cell">мужской</div>
+            <div heading="Адрес" class="table__cell">ул. Центральная, 1</div>
+            <div heading="Дата рождения" class="table__cell">10.01.1980</div>
+          </div>
+          <div class="table__record">
+            <div heading="Регистрационный номер" class="table__cell">2</div>
+            <div heading="Фамилия" class="table__cell">Петрова</div>
+            <div heading="Пол" class="table__cell">женский</div>
+            <div heading="Адрес" class="table__cell">пр. Ленина, 45</div>
+            <div heading="Дата рождения" class="table__cell">25.05.1995</div>
+          </div>
+          <div class="table__record">
+            <div heading="Регистрационный номер" class="table__cell">3</div>
+            <div heading="Фамилия" class="table__cell">Сидоров</div>
+            <div heading="Пол" class="table__cell">мужской</div>
+            <div heading="Адрес" class="table__cell">ул. Пушкина, 12</div>
+            <div heading="Дата рождения" class="table__cell">03.11.1972</div>
+          </div>
+          <div class="table__record">
+            <div heading="Регистрационный номер" class="table__cell">4</div>
+            <div heading="Фамилия" class="table__cell">Козлов</div>
+            <div heading="Пол" class="table__cell">мужской</div>
+            <div heading="Адрес" class="table__cell">ул. Гагарина, 7</div>
+            <div heading="Дата рождения" class="table__cell">15.09.1988</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
